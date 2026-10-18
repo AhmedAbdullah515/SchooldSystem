@@ -13,6 +13,7 @@ namespace SchooldSystem.Models
         public string Email { get; set; }
         [Required]
         [Phone]
+        //first pull
         public string Phone { get; set; }
         [Required]
         public DateTime BirthDate { get; set; }
