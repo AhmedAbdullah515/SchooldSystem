@@ -35,7 +35,7 @@ namespace SchooldSystem.Repo.Implmentation
         {
             throw new NotImplementedException();
         }
-
+        // first commit in school
         void IGenariceRepo<T>.Update(T entity)
         {
             throw new NotImplementedException();
