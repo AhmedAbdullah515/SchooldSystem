@@ -14,6 +14,7 @@ namespace SchooldSystem.Models
         [Required]
         [Phone]
         //first pull
+        //frist commit on first brach
         public string Phone { get; set; }
         [Required]
         public DateTime BirthDate { get; set; }
