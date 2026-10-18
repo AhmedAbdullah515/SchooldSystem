@@ -1,0 +1,11 @@
+﻿namespace SchooldSystem.Repo.Interface
+{
+    public interface IGenariceRepo<T> where T : class
+    {
+        Task<IEnumerable<T>> GetAllAsync();
+        Task<T> GetByIdAsync(int id);
+        void AddAsync(T entity);
+        void Update(T entity);
+         Task DeleteAsync(int id);
+    }
+}

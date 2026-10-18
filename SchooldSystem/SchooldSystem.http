@@ -1,0 +1,6 @@
+@SchooldSystem_HostAddress = http://localhost:5256
+
+GET {{SchooldSystem_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
